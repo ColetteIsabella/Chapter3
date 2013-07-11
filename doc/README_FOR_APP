@@ -1,2 +1,8 @@
 Use this README file to introduce your application and point to useful places in the API for learning more.
 Run "rake doc:app" to generate API documentation for your models, controllers, helpers, and libraries.
+Ticketee
+
+Requires Rails3
+Gemsets: 'https://rubygems.org' 
+as well as Capybara and RSpec for testing.
+As this is a test program, much of the coding relies on these gems.
