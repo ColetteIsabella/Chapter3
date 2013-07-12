@@ -8,12 +8,13 @@
     Ticketee
   <% end %>
 </title>
-  <%= stylesheet_link_tag "application", 
+  <%= stylesheet_link_tag "application",
   	:media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+
 <% flash.each do |key, value|%>
 <div class='flash' id= '<%= key %>'>
 	<%= value %>
