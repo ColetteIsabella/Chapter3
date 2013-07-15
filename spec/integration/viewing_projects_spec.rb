@@ -8,3 +8,4 @@ feature "Viewing projects" do
     page.current_url.should == project_url(project)
   end
 end
+
