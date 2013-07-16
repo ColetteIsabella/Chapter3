@@ -27,6 +27,7 @@ before_filter :find_project, :only => [:show,
   end
 
   def edit
+   @project = Project.find(params[:id])
   end
 
   def update
