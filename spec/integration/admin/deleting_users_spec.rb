@@ -1,6 +1,6 @@
 require 'spec_helper'
-feature 'Deleting users' do
 
+feature 'Deleting users' do
   let!(:admin_user) { Factory(:admin_user) }
   let!(:user) { Factory(:user) }
 
